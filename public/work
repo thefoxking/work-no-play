@@ -1,0 +1,36 @@
+Version 0.0.1
+<h2 align=center>t2a03-Classes-by-Fred.html</h2>
+<a href="">Find a good reference to Javascript Classes</a><br>
+Classes are both Objects that store variables (Called Properties) and Functions
+that work on the variables (called Methods)
+<h4> Example Classses code</h4>
+<pre>
+constructor(passName, passAge) {
+}
+this.myName this.myAge
+=
+=
+passName; passAge;
+myShow() {
+}
+document.getElementById('myDiv☺1').innerHTML = 'Hello' this.myName + '. You are ' + this. myAge +
+myDog = new myAnimal ('Snickers', 5) myDog.myShow()
+</pre>
+<h4> Example working Classes code</h4>
+Nothing: <input type=text id="myText01" value="Useless at the moment"><br> <input type=button value="Example Class Set and Show Class Animal" onclick="{ class myAnimal {
+constructor(passName, passAge) {
+}
+this.myName = passName;
+this.myAge
+myShow() {
+}
+=
+passAge;
+document.getElementById('myDive1').innerHTML = 'Hello' this.myName + '. You are this.myAge +
+} //end class myAnimal
+myDog = new myAnimal ('Snickers', 5)
+myDog.myShow()
+}">
+<div id="myDiv@1">...</div>
+years old<br>'
+years old<br>'
