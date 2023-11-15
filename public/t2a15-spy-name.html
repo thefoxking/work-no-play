@@ -5,4 +5,7 @@
 <input type=button value="encrypt" onclick="{
   let mytemp = ''
   mystring = document.getelementbyid('myarea01').value.tolowercase().split('')
-  for (let myloop=0;  myloop < mystring.length; myloop++)}
+  for (let myloop=0;  myloop < mystring.length; myloop++){
+  mytemp = mystring[myloop]
+  if (mystring[myloop] == 'e' ) {mytemp = 'f'}
+  
