@@ -7,5 +7,7 @@
   mystring = document.getelementbyid('myarea01').value.tolowercase().split('')
   for (let myloop=0;  myloop < mystring.length; myloop++){
   mytemp = mystring[myloop]
-  if (mystring[myloop] == 'e' ) {mytemp = 'f'}
+  if (mystring[myloop] == 'e') {mytemp = 'f'}
+  if (mystring[myloop] == 'h') {mytemp = 'i'}
+  mystring[myloop] = mytemp
   
