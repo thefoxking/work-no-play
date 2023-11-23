@@ -1,0 +1,12 @@
+<body onload="{
+  mystorage = local.getitem('mystoragetext')
+  if(mystroage  !=null{
+     document.getelementid('mytext1').value = mystroage
+  }
+}">
+
+<body onunload="{
+   localstorage.setitem('mystoredtext',document.getelementbyid('mytext1').value)
+}'>
+
+text example: <input id="mytext1" type=text size=70 value="" placeholder="write here
